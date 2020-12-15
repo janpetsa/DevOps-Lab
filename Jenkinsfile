@@ -10,7 +10,7 @@ pipeline {
     stage('Build and test pipeline') {
       steps {
         sh 'npm install'
-        sh 'npm test'
+        sh 'nmp start'
       }
     }
 
